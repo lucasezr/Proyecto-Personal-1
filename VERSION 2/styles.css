@@ -1,0 +1,444 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(180deg, #e2e089 0, #e5d57a 12.5%, #e7c96b 25%, #e9bb5c 37.5%, #eaac4e 50%, #eb9c42 62.5%, #ed8c3b 75%, #ee7c38 87.5%, #f06d39 100%);
+    background-attachment:fixed;
+}
+
+header {
+    height: 115px;
+    border:3px solid rgb(254, 254, 253);
+    margin: 25px auto;
+  border: 1px solid #ccc;
+  
+    box-shadow: 7px 7px 15px #592A08;
+    background-image: radial-gradient(circle at 51.24% 51.24%, #ffffde 0, #fffdbc 25%, #ffdb93 50%, #e8b96c 75%, #d69d4f 100%);
+    padding:auto;
+    position: relative;
+    font-family: 'Arvo', serif;
+    
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-self: space-around;
+  
+
+  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+
+  animation: glitch 500ms infinite;
+}
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  
+  15% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  
+  50% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75), 
+      0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  
+  100% {
+    text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+}
+    
+    
+
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 48px;
+    text-align:center;
+    text-transform: uppercase;
+    
+    
+}
+
+.cuenta {
+   font-size: 30px;
+   position: absolute;
+   left: 250px;
+   margin:50px auto;
+   
+}
+
+.series {
+    font-size: 30px;
+    position: absolute;
+    left: 500px;
+    margin:50px auto;
+    
+    
+}
+
+.peliculas {
+    font-size: 30px;
+    position: absolute;
+    top:0px;
+    right:460px;
+    margin:50px auto;
+}
+
+.estrenos {
+    font-size: 30px;
+    position: absolute;
+    top:0px;
+    right:220px;
+    margin:50px auto;
+}
+
+.imglogin {
+    position:absolute;
+    max-height:50%;
+    max-width: 50%;
+    top:20px;
+    right: 20px;
+}
+
+.login {
+    position:absolute;
+    font-size: 17px; 
+    top:84px;
+    right: 29px;
+}
+
+.contenedor-padre{
+    position:relative;
+    display: flex;
+    
+    padding-left:14%;
+    padding-right: 14%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-bottom:2cm;
+    
+}
+
+.contenedorpeli { 
+    width: 8cm; 
+    max-height: 100%; 
+    margin:1cm;
+    display:flex;
+    position: relative;
+    top:4cm;
+   
+    padding-bottom:10%;
+    padding-top: 4%;
+    
+}
+
+.contenedorpeli img{
+    max-width: 100%;
+    max-height: 100%;
+    outline-color: rgb(234, 252, 29);
+    outline-style: solid;
+    position:relative;
+    
+}
+
+.name-morbius {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 0 1px 0 #c9c9c9, 0 1px 0 #bbb, 0 2px 0 #b9b9b9, 0 2px 0 #aaa, 0 4px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+    font-size: 1.8rem;
+    
+    position:absolute;
+    text-align:center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:-1cm;
+    flex-flow: row wrap;
+    padding-left: 30%;
+    padding-right: 30%;
+    bottom: 100%;
+
+    top:-2.2cm;
+    bottom:100%;
+    right:2.5%;
+    left:10px;
+    
+    background: rgb(236,234,99);
+    background: linear-gradient(90deg, rgba(236,234,99,1) 0%, rgba(232,221,89,1) 14%, rgba(231,214,64,1) 31%, rgba(215,204,103,1) 47%, rgba(224,221,95,1) 59%, rgba(228,217,89,1) 68%, rgba(227,221,87,1) 78%, rgba(221,212,72,1) 91%, rgba(250,251,212,1) 100%);
+    
+    
+  border: 1px solid orange;
+  
+  box-shadow: 7px 7px 15px #592A08;
+}
+
+.name-onceupon {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 0 1px 0 #c9c9c9, 0 1px 0 #bbb, 0 2px 0 #b9b9b9, 0 2px 0 #aaa, 0 4px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+    font-size: 1.8rem;
+    
+    position:absolute;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    
+   
+   top:-2.2cm;
+    
+    bottom:100%;
+    right:2.5%;
+    left:10px;
+
+    background: rgb(236,234,99);
+    background: linear-gradient(90deg, rgba(236,234,99,1) 0%, rgba(232,221,89,1) 14%, rgba(231,214,64,1) 31%, rgba(215,204,103,1) 47%, rgba(224,221,95,1) 59%, rgba(228,217,89,1) 68%, rgba(227,221,87,1) 78%, rgba(221,212,72,1) 91%, rgba(250,251,212,1) 100%);
+   
+    
+  border: 1px solid orange;
+  
+  box-shadow: 7px 7px 15px #592A08;
+}
+
+.name-batman {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 0 1px 0 #c9c9c9, 0 1px 0 #bbb, 0 2px 0 #b9b9b9, 0 2px 0 #aaa, 0 4px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+    font-size: 1.8rem;
+    
+    position:absolute;
+    text-align:center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:-1cm;
+    flex-flow: row wrap;
+    padding-left: 30%;
+    padding-right: 30%;
+    bottom: 100%;
+
+    top:-2.2cm;
+    
+    bottom:100%;
+    right:2.5%;
+    left:10px;
+    
+
+    background: rgb(236,234,99);
+    background: linear-gradient(90deg, rgba(236,234,99,1) 0%, rgba(232,221,89,1) 14%, rgba(231,214,64,1) 31%, rgba(215,204,103,1) 47%, rgba(224,221,95,1) 59%, rgba(228,217,89,1) 68%, rgba(227,221,87,1) 78%, rgba(221,212,72,1) 91%, rgba(250,251,212,1) 100%);
+    
+    
+  border: 1px solid orange ;
+  
+  box-shadow: 7px 7px 15px #592A08;
+}
+
+.name-vidabella {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 0 1px 0 #c9c9c9, 0 1px 0 #bbb, 0 2px 0 #b9b9b9, 0 2px 0 #aaa, 0 4px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+    font-size: 1.8rem;
+    
+    position:absolute;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    top:-2.2cm;
+    
+    bottom:100%;
+    right:2.5%;
+    left:10px;
+    
+    background: rgb(236,234,99);
+    background: linear-gradient(90deg, rgba(236,234,99,1) 0%, rgba(232,221,89,1) 14%, rgba(231,214,64,1) 31%, rgba(215,204,103,1) 47%, rgba(224,221,95,1) 59%, rgba(228,217,89,1) 68%, rgba(227,221,87,1) 78%, rgba(221,212,72,1) 91%, rgba(250,251,212,1) 100%);
+    
+    
+  border: 1px solid orange;
+  
+  box-shadow: 7px 7px 15px #592A08;
+}
+
+
+.name-lugarensilencio {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 0 1px 0 #c9c9c9, 0 1px 0 #bbb, 0 2px 0 #b9b9b9, 0 2px 0 #aaa, 0 4px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    
+    font-size: 1.8rem;
+
+    position:absolute;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    
+
+    top:-2.2cm;
+    
+    bottom:100%;
+    right:2.5%;
+    left:10px;
+
+    background: rgb(236,234,99);
+    background: linear-gradient(90deg, rgba(236,234,99,1) 0%, rgba(232,221,89,1) 14%, rgba(231,214,64,1) 31%, rgba(215,204,103,1) 47%, rgba(224,221,95,1) 59%, rgba(228,217,89,1) 68%, rgba(227,221,87,1) 78%, rgba(221,212,72,1) 91%, rgba(250,251,212,1) 100%);
+    
+
+    
+   border: 1px solid orange;
+  
+   box-shadow: 7px 7px 15px #592A08;
+    
+}
+
+.name-scream {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 0 1px 0 #c9c9c9, 0 1px 0 #bbb, 0 2px 0 #b9b9b9, 0 2px 0 #aaa, 0 4px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+    font-size: 1.8rem;
+    
+    position:absolute;
+    text-align:center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:-1.4cm;
+    flex-flow: row wrap;
+    padding-left: 30%;
+    padding-right: 30%;
+    top:-2.2cm;
+    
+    bottom:100%;
+    right:2.5%;
+    left:10px;
+    background: rgb(236,234,99);
+    background: linear-gradient(90deg, rgba(236,234,99,1) 0%, rgba(232,221,89,1) 14%, rgba(231,214,64,1) 31%, rgba(215,204,103,1) 47%, rgba(224,221,95,1) 59%, rgba(228,217,89,1) 68%, rgba(227,221,87,1) 78%, rgba(221,212,72,1) 91%, rgba(250,251,212,1) 100%);
+    
+  border: 1px solid orange;
+  
+  box-shadow: 7px 7px 15px #592A08;
+    
+}
+
+
+.hr{
+    width: 4.5rem;
+    border-color: rgb(79, 79, 79);
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#footer {
+  width: 100%;
+  height: auto;
+  
+}
+
+.footer-content{
+    color:white;
+    position: relative;
+    background: #292623;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.footer-contenido{
+    position: relative;
+    
+}
+
+.info {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    top:20px
+    
+}
+ 
+.redes {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-flow: column wrap;
+    right: 20px;
+    color: white;
+    bottom:15px
+}
+
+.logo-ig {
+    position: absolute;
+    display: flex;
+    width: 1%;
+    height: auto;
+    right:9%;
+    bottom:0.5cm;
+}
+
+
+.twitter{
+    position:relative;
+    top:-60px;
+    left: -22px;
+
+}
+
+.logo-twitter{
+    position: absolute;
+    display: flex;
+    width:1%;
+    height: auto;
+    right:9%;
+    bottom:1.6cm;
+    
+}
+
+.instagram a{
+    text-decoration: none;
+}
+
+#footer a{
+    text-decoration: none;
+    color:white;
+}
