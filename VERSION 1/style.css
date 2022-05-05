@@ -1,0 +1,127 @@
+*::selection{
+    
+    background: #2189FF;
+    box-sizing: border-box;
+
+}
+
+div { 
+    margin:auto;
+    width: 100px;
+    height: 120px;
+    display: block;
+    background: lightcoral;
+
+}
+
+
+.M1 {
+    background-color: green;
+    position: absolute;
+    top: 200px;
+    left: 310px;
+}
+
+.M2{ 
+    background-color: blue;
+    position: absolute;
+    top: 200px;
+    left: 560px;
+}
+
+.M3 {
+    background-color: indigo;
+    position: absolute;
+    top: 200px;
+    left: 810px;
+}
+
+.M4{
+    background-color: lightblue;
+    position: absolute;
+    top: 200px;
+    left: 1060px;
+}
+
+.M5 {
+    background-color: papayawhip;
+    position: absolute;
+    top: 200px;
+    left: 1310px;
+}
+
+
+
+
+
+
+body {
+    background-color: #2E2E2D;
+    height: 100vh;
+}
+
+header { 
+    background: #FF0000;
+    position: fixed;
+    padding: 10px;
+    width: 97%;
+    border-bottom: 4px solid black;
+    top: 20px;
+    border: black 5px solid;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 1px 1px rgba(0, 0,0, 0) 
+}
+
+
+
+ 
+
+header nav ul {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-left: 30px;
+    margin-right: 200px;
+    padding-left: 200px;
+    height: 100%;
+    align-items:center;   
+    
+}
+
+
+header ul li {
+    list-style: none;
+    align-items:center;
+    border: black 4px solid;
+    background: yellow;
+    padding: 10px;
+    border-radius: 100px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    text-align: top;
+}
+
+li:hover{
+    text-decoration: underline;  /* Esto hace que al poner el mouse sobre una opcion del header o algun hipervinculo, le aparezca subrayado abajo*/
+}
+
+h1 {
+    text-align:center;
+    border: black 4px solid;  /* Esto le da el borde negro a los circulos amnarillos */
+    background: yellow;
+    padding: 20px;
+    border-radius: 100px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+
+
+
